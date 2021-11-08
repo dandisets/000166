@@ -3,17 +3,37 @@
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
 about:
-- identifier: UBERON:0000411
+- identifier: http://purl.obolibrary.org/obo/UBERON_0000411
   name: Visual cortex
-access:
-- contactPoint:
-    email: petersen.peter@gmail.com
-    schemaKey: ContactPoint
-  status: dandi:OpenAccess
+  schemaKey: Anatomy
+access: []
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 787191910918
+  numberOfFiles: 19
+  numberOfSubjects: 19
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectrodeGroup
+  - Units
+  - LFP
 citation: Senzai Yuta; Antonio Fernandez-Ruiz; Buzsáki, György (2021) Layer-Specific
   Physiological Features and Interlaminar Interactions in the Primary Visual Cortex
   of the Mouse (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000166/draft
@@ -39,6 +59,41 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+- contactPoint: []
+  identifier: https://ror.org/000k40t10
+  includeInCitation: false
+  name: Heiwa Nakajima Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://hnf.jp/
+- awardNumber: MH54671,  MH107396, NS090583
+  contactPoint: []
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.nih.gov/
+- awardNumber: 1545858, 1707316
+  contactPoint: []
+  email: info@nsf.gov
+  identifier: https://ror.org/021nxhr62
+  includeInCitation: false
+  name: National Science Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.nsf.gov/
+- contactPoint: []
+  identifier: https://ror.org/029chgv08
+  includeInCitation: false
+  name: Wellcome Trust
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.wellcome.ac.uk/
 dateCreated: '2021-11-06T18:16:55.568418+00:00'
 description: The relationship between mesoscopic local field potentials (LFPs) and
   single-neuron firing in the multi-layered neocortex is poorly understood. Simultaneous
@@ -72,7 +127,9 @@ protocol: []
 relatedResource:
 - identifier: doi:10.1016/j.neuron.2018.12.009
   name: Publication
-  relation: dcite:IsCitedBy
+  relation: dcite:IsDescribedBy
+  repository: Neuron
+  schemaKey: Resource
   url: https://doi.org/10.1016/j.neuron.2018.12.009
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
