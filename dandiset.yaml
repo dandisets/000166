@@ -34,13 +34,13 @@ assetsSummary:
   - ElectrodeGroup
   - Units
   - LFP
-citation: Senzai Yuta; Antonio Fernandez-Ruiz; Buzsáki, György (2021) Layer-Specific
+citation: Senzai, Yuta; Fernandez-Ruiz, Antonio; Buzsáki, György (2021) Layer-Specific
   Physiological Features and Interlaminar Interactions in the Primary Visual Cortex
   of the Mouse (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000166/draft
 contributor:
 - affiliation: []
   includeInCitation: true
-  name: Senzai Yuta
+  name: Senzai, Yuta
   roleName:
   - dcite:ContactPerson
   - dcite:Author
@@ -49,7 +49,7 @@ contributor:
   schemaKey: Person
 - affiliation: []
   includeInCitation: true
-  name: Antonio Fernandez-Ruiz
+  name: Fernandez-Ruiz, Antonio
   roleName:
   - dcite:Author
   schemaKey: Person
