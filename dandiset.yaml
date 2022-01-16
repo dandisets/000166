@@ -36,7 +36,7 @@ assetsSummary:
   - LFP
 citation: Senzai, Yuta; Fernandez-Ruiz, Antonio; Buzsáki, György (2022) Layer-Specific
   Physiological Features and Interlaminar Interactions in the Primary Visual Cortex
-  of the Mouse (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000166/draft
+  of the Mouse (Version 0.220116.2037) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000166/0.220116.2037
 contributor:
 - affiliation: []
   includeInCitation: true
@@ -95,6 +95,7 @@ contributor:
   schemaKey: Organization
   url: http://www.wellcome.ac.uk/
 dateCreated: '2021-11-06T18:16:55.568418+00:00'
+datePublished: '2022-01-16T20:37:48.928648+00:00'
 description: The relationship between mesoscopic local field potentials (LFPs) and
   single-neuron firing in the multi-layered neocortex is poorly understood. Simultaneous
   recordings from all layers in the primary visual cortex (V1) of the behaving mouse
@@ -109,8 +110,9 @@ description: The relationship between mesoscopic local field potentials (LFPs) a
   neurons was active exclusively in the DOWN state of non-REM sleep. These results
   bridge mesoscopic LFPs and single-neuron interactions with laminar structure in
   V1.
+doi: 10.48324/dandi.000166/0.220116.2037
 ethicsApproval: []
-id: DANDI:000166/draft
+id: DANDI:000166/0.220116.2037
 identifier: DANDI:000166
 keywords:
 - 'current source density '
@@ -120,10 +122,22 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000166/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000166/0.220116.2037/assets.yaml
 name: Layer-Specific Physiological Features and Interlaminar Interactions in the Primary
   Visual Cortex of the Mouse
 protocol: []
+publishedBy:
+  endDate: '2022-01-16T20:37:48.928648+00:00'
+  id: urn:uuid:5f128d68-b05e-4640-a7a1-92da5a539d95
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2022-01-16T20:37:48.928648+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:b2c72309-237b-41d2-b009-3d695f2da120
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: doi:10.1016/j.neuron.2018.12.009
   name: Publication
@@ -135,6 +149,6 @@ repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000166/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000166/0.220116.2037
+version: 0.220116.2037
 wasGeneratedBy: []
