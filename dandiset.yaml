@@ -6,7 +6,9 @@ about:
 - identifier: http://purl.obolibrary.org/obo/UBERON_0000411
   name: Visual cortex
   schemaKey: Anatomy
-access: []
+access:
+- schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -34,7 +36,7 @@ assetsSummary:
   - ElectrodeGroup
   - Units
   - LFP
-citation: Senzai, Yuta; Fernandez-Ruiz, Antonio; Buzsáki, György (2022) Layer-Specific
+citation: Senzai, Yuta; Fernandez-Ruiz, Antonio; Buzsáki, György (2024) Layer-Specific
   Physiological Features and Interlaminar Interactions in the Primary Visual Cortex
   of the Mouse (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000166/draft
 contributor:
@@ -131,7 +133,7 @@ relatedResource:
   repository: Neuron
   schemaKey: Resource
   url: https://doi.org/10.1016/j.neuron.2018.12.009
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
